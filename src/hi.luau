@@ -16,3 +16,8 @@ if not isfile("hi/config.json") then
 end
 
 local ENV = getgenv()
+
+ENV.services = {
+HttpService = game:GetService("HttpService");
+RunService = game:GetService("RunService");
+}
