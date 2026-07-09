@@ -21,3 +21,6 @@ ENV.services = {
 HttpService = game:GetService("HttpService");
 RunService = game:GetService("RunService");
 }
+ENV.saveConfig = function()
+
+end
